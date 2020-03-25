@@ -13,6 +13,8 @@
 		4742869C242AB73800CA0EB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4742869A242AB73800CA0EB2 /* Main.storyboard */; };
 		4742869E242AB73F00CA0EB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4742869D242AB73F00CA0EB2 /* Assets.xcassets */; };
 		474286A1242AB73F00CA0EB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4742869F242AB73F00CA0EB2 /* LaunchScreen.storyboard */; };
+		474286A9242AC55D00CA0EB2 /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474286A8242AC55D00CA0EB2 /* HistoryTableViewController.swift */; };
+		474286AB242ACA8700CA0EB2 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474286AA242ACA8700CA0EB2 /* HistoryTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		4742869D242AB73F00CA0EB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		474286A0242AB73F00CA0EB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		474286A2242AB73F00CA0EB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		474286A8242AC55D00CA0EB2 /* HistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
+		474286AA242ACA8700CA0EB2 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				47428694242AB73800CA0EB2 /* AppDelegate.swift */,
+				474286A8242AC55D00CA0EB2 /* HistoryTableViewController.swift */,
 				47428696242AB73800CA0EB2 /* SceneDelegate.swift */,
 				47428698242AB73800CA0EB2 /* ViewController.swift */,
 				4742869A242AB73800CA0EB2 /* Main.storyboard */,
 				4742869D242AB73F00CA0EB2 /* Assets.xcassets */,
 				4742869F242AB73F00CA0EB2 /* LaunchScreen.storyboard */,
 				474286A2242AB73F00CA0EB2 /* Info.plist */,
+				474286AA242ACA8700CA0EB2 /* HistoryTableViewCell.swift */,
 			);
 			path = WebViewExample;
 			sourceTree = "<group>";
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				474286A9242AC55D00CA0EB2 /* HistoryTableViewController.swift in Sources */,
 				47428699242AB73800CA0EB2 /* ViewController.swift in Sources */,
 				47428695242AB73800CA0EB2 /* AppDelegate.swift in Sources */,
 				47428697242AB73800CA0EB2 /* SceneDelegate.swift in Sources */,
+				474286AB242ACA8700CA0EB2 /* HistoryTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
